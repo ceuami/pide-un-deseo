@@ -11,7 +11,7 @@ body{
 }
 #cuerpo{
 	position:absolute;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	padding-bottom:1%;
 	padding-left:2%;
 	padding-right:2%;
@@ -22,7 +22,7 @@ body{
 	font-family: 'Cabin Sketch', cursive;
 	font-size:80px;
 	display:block;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	position:relative;
 	width:90%;
 	left:2%;
@@ -32,13 +32,13 @@ body{
 #mainSection{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	width:81%;
 	left:10%;
 }
 #form_admiracion{
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	width:61%;
 	left:31%;
 }
@@ -53,7 +53,7 @@ body{
 	border-top:none;
 	border-left:none;
 	border-right:none;
-	//border-bottom:solid 2px #blue;
+	/*border-bottom:solid 2px #blue;*/
 	background-color:#fff;
 	font-family: 'Paytone One', sans-serif;
 	font-size:20px;
@@ -64,13 +64,13 @@ body{
 	display:block;
 	position:relative;
 	top:-80px;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:950%;
 }
 #ted{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:5%;
 }
 #mainFooter{
@@ -79,7 +79,7 @@ body{
 	font-family: 'Cabin Sketch', cursive;
 	font-size:30px;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	width:80%;
 	padding-top:3%;
 	left:10%;
@@ -87,45 +87,45 @@ body{
 #uam{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:50%;
 }
 #ometli{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:100%;
 
 }
 #github{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:85%;
 }
 #ceuamilabs{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	top:0px;
 	left:105%;
 }
 #texto{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	top:20px;
 	left:35%;
 }
 #facebook{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:355%;
 }
 #twitter{
 	display:block;
 	position:relative;
-	//border:solid 2px #fff;
+	/*border:solid 2px #fff;*/
 	left:425%;
 }
