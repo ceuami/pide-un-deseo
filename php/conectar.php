@@ -3,7 +3,7 @@
 function conectar(){
 	$nameServer = 'localhost';
 	$user = 'root';
-	$password = '';
+	$password = '1E5y8La';
 	$dataBase = 'pide_un_deseo';
 	$idcnx = mysql_connect($nameServer, $user, $password) or die (mysql_error());
 	mysql_select_db($dataBase, $idcnx);

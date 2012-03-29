@@ -12,21 +12,37 @@ $(document).ready(function(){
 			
 			$.ajax({
 				
-				url: '../php/consultarDeseos.php',
+				url: '../php/guardarDeseos.php',
 				
-				data: '',
+				data: 'deseo='+d,
 				
 				type: 'POST',
 				
-				success: function(data){
+				success: function(){
 					
-					$('body').html(data);
-					
-				},
+					$.ajax({
 				
-				error: function(geterror){
-					
-					alert(geterror);
+						url: '../php/consultarDeseos.php',
+
+						data: '',
+
+						type: 'POST',
+
+						success: function(data){
+
+							$('.css_ss').attr('href', '../css/css2.css')
+
+							$('body').html(data);
+
+						},
+
+						error: function(geterror){
+
+							alert(geterror);
+
+						}
+
+					});
 					
 				}
 				
